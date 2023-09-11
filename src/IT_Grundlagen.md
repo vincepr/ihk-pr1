@@ -13,13 +13,18 @@ Leistung = Stromstärke * Spannung
 1MB = 1/1000 GB
 ```
 
-## IP Adressen
-```
-localhost IPv4  127.0.0.1
-localhost IPv6  ::1
-```
-
 ## Aufbau eines Rechners
+
+### BIOS vs UEFI
+
+**UEFI** - Unified Extensible Firmware Interface
+- Schnittstellensoftware zwischen Mainboard Firmware und OS.
+Vorteile zum Vorgänger (**BIOS** : Basic Input Output System)
+- Grafisches Interface
+- höhere Bildschirmauflösung
+- Booten über Netzwerk
+- leichter aktualisierbar
+
 ### Teile einer CPU
 - IDU - Instruction Decode Unit
 - ALU - Arithmetic Logic Unit
@@ -64,3 +69,15 @@ Verbindet Komponenten (Prozessor, Controller, RAM, Eingabe...) miteinander elekt
     - Taktfrequenz neben Busbreite das andere Leistungskriterium
 
 ![Bussystem](./img/Bussystem.excalidraw.svg)
+
+### ECC - Error Correcting Code
+- 1 Bit Fehler im RAM werden automatisch verbessert.
+- 2 Bit Fehler automatisch erkannt.
+
+## Support
+**First Level Support:**
+- Erste anlaufstelle für Störungen (Ticketsystem, Mail, Telefon)
+- Direkter Kundenkontakt
+- z.B. Passwordreset
+
+**Second Level Support**
