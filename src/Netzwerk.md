@@ -5,6 +5,8 @@
 **Apipa Adresse: **
 - Autokonfiguration wenn nichts eingestellt. (vergibt sich selbst **link-local** Ip-Adresse)
 
+![global vs local](./img/localglobalinsideout.svg)
+
 **Domain Controller:**
 - Server zur zentralen Verwaltung von Benutzerrechten und Authentifizierung in einem Netzwerk
 - Steuerung von Rechten
@@ -97,3 +99,7 @@ VDSL - Very High Speed - benutzt (Super-)Vectoring. erhöht auf Kupferleitung di
 |SDSL|5Mbit|5Mbit|
 |ADSL|10Mbit|1Mbit|
 |VDSL|50Mbit|10Mbit|
+
+## DHCP
+![Dhcp](./img/dhcp.svg)
+

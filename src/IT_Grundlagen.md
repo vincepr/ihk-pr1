@@ -96,3 +96,17 @@ Verbindet Komponenten (Prozessor, Controller, RAM, Eingabe...) miteinander elekt
 - Erstellen oft die Schemen/Checklisten nach denen 1-2nd level arbeiten
 - Berechtigt zum ändern von Konfigurationen / Sourcecode sollte dies nötig sein
 
+## Verkabelung
+![Alt text](./img/Verkabelung.svg)
+- Bandbreite: Übertragungsrate in Datenverbindungen
+- Datenrate: aktuelle Übertragungsrate
+- Bitfehlerrate: Verfälschte-Bit-Segmente / Gesamtanzahl
+- Reflexion:
+    - in elektrischen Wellen, Leitungen, Lichtwellenleitern
+    - das selbe Signal wird 2 mal zeitlich verzögert empfangen
+    - häufig an Leitungsenden
+- Rauschen: unerwartete Störung eines Signal
+    - thermisch-
+    - elektromagnetisch-
+    - intermodulationsrauschen
+- Nebensprechen/Crosstalk: Feld eines Leiters überträgt(koppelt) ungewollt in Neben-Kabel

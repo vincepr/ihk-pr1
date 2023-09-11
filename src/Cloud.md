@@ -21,3 +21,17 @@
 
 **IaaS** - Infrastructure as a Service:
 - z.B. Betriebssysteme, Netzwerklösungen(Cisco), VooIP-Systeme, Backup-Systeme
+
+### VDI und DaaS
+*DaaS* - Dektop as a Service
+
+*VDI* - Virtual Dektop Interface
+- beschreibt Dektops virtuell auf einem Server betreiben
+- in Kombination mit Thin Clients
+
+Thin Client : kleiner Computer, hat noch lokalen Speicher und Browser, nur teils mit vollem Betriebssystem.
+- günstig, kompakt, nutzt auslagern der Leistung in Cloud/VDI aus
+
+Zero Client : local keinen Speicher, keinen Browser
+
+All-In-One : Thin Client mit Bildschirm
