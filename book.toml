@@ -1,0 +1,6 @@
+[book]
+authors = ["vincepr"]
+language = "en, de"
+multilingual = true
+src = "src"
+title = "ihk-pr1"
