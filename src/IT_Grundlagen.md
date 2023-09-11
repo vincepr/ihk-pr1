@@ -75,9 +75,24 @@ Verbindet Komponenten (Prozessor, Controller, RAM, Eingabe...) miteinander elekt
 - 2 Bit Fehler automatisch erkannt.
 
 ## Support
+**Ticket System:**
+- Störungen und notwendige Infos werden gebündelt
+- priorisieren von wichtigen Aufgaben
+- Da Daten über z.B. unternommenen Schritte beisammen, kann einfach von anderer Personan/an anderem Tag weitergearbeitet werden
+
 **First Level Support:**
 - Erste anlaufstelle für Störungen (Ticketsystem, Mail, Telefon)
 - Direkter Kundenkontakt
 - z.B. Passwordreset
 
-**Second Level Support**
+**Second Level Support:**
+- Wenn 1st Level nicht ausreicht
+- Oft IT-Admins
+- z.B. austausch Hardware nötig
+
+**Third Level Support:**
+- Hochste Stufe der Störungseskalation
+- Spezialistenwissen. Oft erfahrene Experten die lange im Unternehmen arbeiten
+- Erstellen oft die Schemen/Checklisten nach denen 1-2nd level arbeiten
+- Berechtigt zum ändern von Konfigurationen / Sourcecode sollte dies nötig sein
+
