@@ -2,8 +2,6 @@
 
 ## Begriffe
 
-**Apipa Adresse: **
-- Autokonfiguration wenn nichts eingestellt. (vergibt sich selbst **link-local** Ip-Adresse)
 
 **Domain Controller:**
 - Server zur zentralen Verwaltung von Benutzerrechten und Authentifizierung in einem Netzwerk
@@ -26,13 +24,24 @@
 - durch Firewall getrennt
 - gesonderte Firewall einstellungen 
 
-### Inside vs Outside and local vs global
+**Router:**
+- Kopelelemente die Pakete zwischen verschiedenen Rechnernetzwerken weiterleiten
+- Routing anhand von IP-Adressen
+- Dienen oft als Gateway angeschlossener Rechner ins Internet
 
-**Inside vs Outside: ** Inside Clients Network vs not
+**Switch:**
+- Koppelelemente in Rechnernetzwerken die Segmente miteinander verbinden
+- werden häufig in Firmennetzwerken verwendet um ein LAN zu bilden
+- Sorgen innerhalb einer Broadcast Domain, dass Datenpakete(Frames) an ihr Ziel kommen
 
-**local vs global: ** private vs only reachable via the Internet
+**APIPA Adresse: **
+- Autokonfiguration wenn nichts eingestellt. (vergibt sich selbst **link-local** Ip-Adresse)
 
-![global vs local](./img/localglobalinsideout.svg)
+**Link-Local Adresse:**
+- Selbst zugewiesene Adresse (z.B. APIPA), da Zuweisung per DHCP z.B. nicht funktioniert hat (DHCP Server nicht erreichbar)
+- Link Local wird für Unicast inerhal local LAN verwendet
+- ipv6 `FE80::wxyz...`
+- ipv4 `169.254.0.0/16`
 
 ### Betriebsmodi Switch
 Store Forward:
@@ -55,6 +64,27 @@ Error-Free-Cut-Through
 - direkt Weiterleiten
 - Kopie im Speicher anlegen, diese wird ausgewertet auf Fehler
 - wenn zu viele Fehler, dynamischer Wechsel in z.B. StoreForward
+
+
+
+### Inside vs Outside and local vs global
+
+**Inside vs Outside: ** Inside Clients Network vs not
+
+**local vs global: ** private vs only reachable via the Internet
+
+![global vs local](./img/localglobalinsideout.svg)
+
+## OSI - Modell
+|Nr|Schicht|Protokolle|Geräte|-|Adressen|Beschreibung|Störungen|
+|---|---|---|---|---|---|---|---|
+|7|Application|Http,FTP,SMTP|Proxy, Load-Balancer|Daten|-|Daten-ein/ausgabe|Server Config fehlerhaft|
+|6|Presentation|Http,FTP,SMTP|Proxy, Load-Balancer|Daten|-|Anwendungsdaten in Standard Formate|Server Config fehlerhaft|
+|5|Session|Http,FTP,SMTP|Proxy, Load-Balancer|Daten|-|Steuerung der Verbindung|Server Config fehlerhaft|
+|4|Transport|TCP, UDP|Gateway|Segmente/Datagramme|Ports|Zuordnung der Datenpakete|Verlust von Packeten
+|3|Network|IP, ICMP|Router|Pakete|IP|Routing Pakete nächster Knoten|Falsche IP vergeben|
+|2|DataLink|Ethernet, ARP|Bridge, Switch|Frames|MAC|Pakete in Frames, Checksums|Netzwerkkarte defekt|
+|1|Physical|(Token Ring)|Kabel, Repeater|Bits|-|Umwandeln Bits in Physische Signale|Kabel defekt|
 
 
 ## IPv4
@@ -114,8 +144,35 @@ VDSL - Very High Speed - benutzt (Super-)Vectoring. erhöht auf Kupferleitung di
 |ADSL|10Mbit|1Mbit|
 |VDSL|50Mbit|10Mbit|
 
+## DNS
+Domain Name System - Namensdatenbank die domain-namen in IP Adressen auflöst
+
+Name-Server
+- autorativer Server: für Zone zuständig (z.B. `.de` oder `.tv`)
+- secondary Server: Casht Infos von anderen Name-Servern im RAM. Stellt diese zu verfügung (z.B. google's `8.8.8.8`)
+
 ## DHCP
+Dynamic Host Configuration Protocol
+- Automatische Vergabe von IP-Adressen für Hosts
 ![Dhcp](./img/dhcp.svg)
+
+### DORA
+Beschreibt den Ablauf einer DHCP-Anfrage und -Antwort:
+1. Discover - Client sendet UDP-Paket Broadcast (an 255.255.255.255). Dient als Adressanforderung an alle verfügbaren DHCP-Server
+2. Offer - DHCP-Server antworten mit verfügbarer IP Konfiguration. Beinhaltet:
+    - mögliche IP Adresse
+    - MAC Adresse des Clients
+    - Laufzeit/Lebenszeit
+    - Subnetzmaske
+    - IP Adresse des DHCP Servers
+3. Request - Client sucht sich eine IP Adresse aus und sendet (per BC so wissen alle Server das er ihre/andere genomment hat)
+4. Acknowledge - Anschließend wird die Vergabe vom DHCP Server bestätigt oder verneint. (wenn mitlerweile z.B. an anderen Client vergeben)
+    - Sobald Client die Bestätigung erhalten speichert er diese lokal ab
+    - Anschließend wird der TCP/IP Stack gestartet
+
+Refresh 
+- Nach hälfte der Lease Time wird versucht zu verlängern
+- wenn ACK ausbleibt in immer kürzeren Intervallen nachgefragt
 
 ## VPN - Virtuelles Privates Netzwerk
 - Internetverkehr in ungesicherten Netzwerken verschlüsseln
@@ -149,3 +206,86 @@ VLAN-Trunking:
 - Switch verwirft alle Frames die zu unbekannten VLAN-Gruppen gehören
 - so lässt sich VLAN über mehrere Switches ausweiten
 
+## xyz-Area-Networks
+|||||
+|---|---|---|---|
+|PAN|Personal-AN|wenige Meter|USB, FrireWire, Bluetooth|
+|LAN|Local-AN|Grundstücksfläche|Ethernet/WLAN|
+|MAN|Metropolian-AN|Städtenetzwerk|Breitbandiges Telekommunikationsnetz|
+|WAN|Wide-AN|mehrere MANs/Länder/Kontinente| meist im Besitzt einer Orga/Unternehmen|
+|GAN|Global-AN|Weltumspannend|unser Internet. Glaßfaßer, Tiefseekabel, Satellit|
+
+## Protokoll Liste
+**TCP:**
+- Verbindungsorientiert
+- Zuverlässige Übertragung
+- Flusskontrolle und automatisches Nachsenden von Paketen
+- Segmentiert Pakete automatisch
+- Geeignet für Datei übertragung oder Websites
+
+**UDP:**
+- Verbindungslos
+- Schnelle echtzeit Übertragung
+- Keine Korrekturprüfung, kein Nachsenden
+- Kleine Header, Keine Segmentierung
+- Geeignet für z.B. VoIP, Video Streaming
+
+**telnet:**
+- Ältester Dienst im Internet
+- Vorgänger zu SSH
+- Unverschlüsselt
+
+**SSH:** - Secure Shell Protocol
+- Protokoll für zugriff auf Server
+- Client Server Prinzip
+- Verschlüsselt
+
+**FTP:** - File transfer Protocol
+- Client kann Daten ablegen/löschen/herunterladen
+- Herader enthalten Restart Markierungen
+
+**HTTP:** - Hypertext Transfer Protocol
+- Zustandsloses Protokoll
+- Client Server
+- GET, POST, PUT, PATCH, DELETE, HEAD, TRACE ...
+- Fehlercodes - Statusmeldungen z.B. 404
+
+**HTTP- Cookies:**
+- Möglichkeit Browser anweisen Daten lokal zu speichern
+- Da HTTP-zustandslos, Server kann keinen Zusammenhang wischen verschiedenen Requests herstellen. Cookies lösen dieses Problem
+
+**SMTP:** - Simple Mail Transfer Protocol
+
+**Websockets:** - Bidirektionale Verbindung, die offengehalten wird.
+
+**POP:**
+- Email für offline verwendung abrufen
+
+**IMAP:**
+- Wie POP, aber synchronisierung mehrerer Geräte möglich
+
+**UDP:**
+- Verbindungslos
+
+## Mehrfachzugriffsverfahren
+Ferfahren für geteilte Medien (z.B. Luft bei WLAN)
+
+**CSMA/CA** - Carrier Sense Multiple Access with Collision Avoidance
+- Prinzip, listen before you talk
+- Probleme: Hidden Station Problem: Wenn 2 entfernte Stationen sich gegenseitig nicht mehr wahrnehmen, Stationen in der Mitte jedoch beide
+
+**TDMA** - Zeit Multiplex Verfahren
+- Synchrones TDMA feste Zeitslots. So jedoch viel verschwendete Bandbreite
+- Asynchrones TDMA. Effizienter, aber mehr Protokollaufwand
+- z.B. bei Mobilfunk (2G, Sattelit)
+
+**FDMA** - Frequenz Multiplex#+
+- Digitales Signal wird in analoges Sinus welle geändert
+- Jeder Sender bekommt eigene Frequenz. Alle Senden gleichzeitig.
+- Am Empfänger werden die einzelnen Frequenzen wider herausgefiltert
+- z.B. Kabel Fehrnsehr, Kabel-Internet
+
+**CDMA** - Code Divison Multiplex Verfahren
+- mehrere Signale benutzen gleichen Kanal, dieser wird durch Spreizung codiert.
+- Bessere Bandbreitennutzung als FDMA oder TDMA
+- z.B. bei Mobilfunk (3G, UTMS)

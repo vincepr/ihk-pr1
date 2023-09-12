@@ -258,6 +258,39 @@ ISO 9000 ff.  (z.B. 9001)
 - Kontaktdaten
 
 ## Recht
+
+### Handelskauf
+**Bürgerlicher Kauf:** Privatperson - Privatperson
+
+**Einseitiger Handelskauf:** Privatperson - Unternehmen
+- offene Mängel selbst innerhalb 2 Jahren nach Lieferung erklärbar
+- immer mindestens die 24 Monate Gewährleistung
+
+**Zweiseitiger Handelskauf:** Unternehmen - Unternehmen
+- Vertragsfreiheit, auch weniger als die gesetzliche Gewährleistung von 24 Monate zulässig
+- Mängel/Reklamation muss unverzüglich erfolgen
+
+
+**Wenn keine Beseitigung des Mangels**
+- Minderung
+- Rücktritt vomn Kaufvertrag
+- Schadensersatz
+- Ersatz vergeblicher Anwendungen
+
+### Vertragsarten
+**Werkvertrag**
+- es wird die Herstellung eines Werks (Gutes/Dienstleistung) vereinbart
+- einmalige Tätigkeit
+- Auftrag**nehmer** trägt Risiko
+- Abrechnung für fertiges Produkt
+
+**Werkvertrag**
+- eine bestimmte Leistung wird vereinbart
+- häufig wiederholte Tätigkeit
+- Auftrag**geber** trägt Risiko
+- Abrechnung nach Stunden/Tagessätzen
+
+
 ### Gesetzliche Vorschriften bei Rechnung
 **NICHT Vorgeschrieben** sind:
 - Logo
