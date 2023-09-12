@@ -5,8 +5,6 @@
 **Apipa Adresse: **
 - Autokonfiguration wenn nichts eingestellt. (vergibt sich selbst **link-local** Ip-Adresse)
 
-![global vs local](./img/localglobalinsideout.svg)
-
 **Domain Controller:**
 - Server zur zentralen Verwaltung von Benutzerrechten und Authentifizierung in einem Netzwerk
 - Steuerung von Rechten
@@ -27,6 +25,14 @@
 - Pufferzone zwischen Internet und Intranet
 - durch Firewall getrennt
 - gesonderte Firewall einstellungen 
+
+### Inside vs Outside and local vs global
+
+**Inside vs Outside: ** Inside Clients Network vs not
+
+**local vs global: ** private vs only reachable via the Internet
+
+![global vs local](./img/localglobalinsideout.svg)
 
 ### Betriebsmodi Switch
 Store Forward:
@@ -71,12 +77,20 @@ localhost IPv6  ::1
 
 ### NAT
 #### NAT - Network Adress Translation
-- wenn viele Zugänge ins Internet nur eine/wenige öffentliche IP benutzen/teilen.
-- NAT64 für kombination aus IPv4 und IPv6
+- Gleichzeitiges Verwenden **einer** öffentlichen IP durch mehrere Hosts. (geteilt)
 
-#### PAT  - Port Adress Translation
+**Statisches NAT:** - jede IP bekommt eine öffentliche IP (Table).
+
+**Dynamiscches NAT:** - Pool mit rotierenden IPs. Jedoch immer noch nur soviele gleichzeitige Nutzer wie öffentliche IPs.
+
+
+**PAT  - Port Adress Translation**
 - wie bei NAT, nur werden Ports gezielt genutzt um sie Verbindungen/lokalen-IPs zuzuordnen
 - wenn heutzutage (nicht IHK) von NAT geredet wird, wird NAT mit PAT impliziert
+
+**NAT64 - aka. Dual Stack:**
+- ipv4 und ipv6 Adressen werden kombiniert
+- 4 to 6 Tunnel. Die letzten 32 Bit einer v6 Adresse werden benutzt um ipv4 zu codieren
 
 ### WLAN
 |Name|Vorteile|Nachteile|geeignet|
@@ -102,4 +116,36 @@ VDSL - Very High Speed - benutzt (Super-)Vectoring. erhöht auf Kupferleitung di
 
 ## DHCP
 ![Dhcp](./img/dhcp.svg)
+
+## VPN - Virtuelles Privates Netzwerk
+- Internetverkehr in ungesicherten Netzwerken verschlüsseln
+- getunnelte Verbindung
+- Inhalte verschlüsseln
+
+**Site to Site VPN:**
+- Standorte oder Filialen untereinander verbinden
+- z.B. Haupt mit Nebenfilialen
+
+**End to Site VPN:**
+- Endgeräte mit lokalem Netzwerk verbinden
+- z.B. Homeoffize zu intranet der Firma
+
+
+## VLAN - Virtual LAN
+physisches LAN in voneinander isolierte logische Teile aufteilen
+- Befindet sich Schicht 2 im OSI-Modell
+
+Vorteile:
+- Sicherheit
+- Flexibler
+- Performance (prio von z.B. VoIP)
+- weniger Broadcast last
+- Organisationsstrukturen abbilden
+
+VLAN-Tag:
+- enthält z.B. Priorität, vlanID. Auch VLAN-Header genannt.
+
+VLAN-Trunking:
+- Switch verwirft alle Frames die zu unbekannten VLAN-Gruppen gehören
+- so lässt sich VLAN über mehrere Switches ausweiten
 

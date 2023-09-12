@@ -1,6 +1,11 @@
 # Cloud
 
-## Typen
+## Virtualisierung
+- Ausführen mehrerer virtueller Server auf einem physischem Gerät
+- Der Hypervisor verteilt Resourcen wie z.B. RAM, CPU-Cores, Schnittstellen
+
+
+## Cloud-Typen
 **Private Cloud** - Rechenzentrum im eigenen Unternehmen (hohe Kosten, hohe Anforderungen)
 
 **Public Cloud** - vom Anbieter übers Internet zur Verfügung gestellte IT Infrastruktur
