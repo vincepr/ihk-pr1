@@ -45,11 +45,50 @@ beschreibt die Anforderungen (vom **Kunden** erstellt)
 - Grundlage für Angebot des Dienstleisters 
 - Basis für Pflichtenheft
 
+Aufbau:
+||||
+|---|---|---|
+|Business Case|Warum ist Projekt notwendig?|Relaunch Webseite notwendig, da veraltet|
+|Ist Zustand|Dokumentation des aktuellen Status|aktuell benutztes Framework läuft aus|
+|Soll Zustand|was im allg. verbessert werden soll|Benutzbarkeit, Änderbarkeit, Übertragbarkeit, Skalierbarkeit|
+|Anforderung|konkrete Auflistung was geleistet werden soll. ohne technische Implementierungs Details|komplette ausführliche Beschreibung der Website|
+|Lieferumfang/Dauer d Umsetzung| Erstellung eines Zeitplans||
+|Besondere/Allg. Hinweise|||
+|Einzusetztende Techniken||Website mit React|
+|Anlagen|Pdfs, Tabellen, Zeichnungen|| 
+
 ### Pflichtenheft
 beschreibt wie die Anforderungen umgesetzt werden. (vom **Anbieter** erstellt)
 
 - zeigt Umsetzungsmöglichkeiten
 - nach Ausschlussprinzip keine Konkreten Beispiele
+
+### SLA - Service Level Agreement
+- Verfügbarkeit
+- Kosten
+- Reaktionszeit
+- Vertragslaufzeit
+- Gebuchte Dienste
+- Datensicherung
+
+## Abnahme
+### Software Abnahmeprozess
+- Verfahrensabgleich mit Pflichtenheft
+- Bereitstellen Dokumentation/Testszenarien
+- Fristenregelungen
+- Behandlung von Fehlern/Mängeln
+
+### Abnahmeprotokoll
+Formales: 
+- nennung von an Abnahme beteiligten Personen
+- Datum/Ort und Signaturen
+
+Haupt:
+- Beschreibung des abgenommenen Produktes
+- Erfüllung der Abnahmekriterien
+- letzte Möglichkeit Mängel zu benennen und schriftlich festzuhalten
+
+Mit der Abnahme beginnt die Gewährungsfrist
 
 ## Compiler, Interpreter etc.
 ### Linker

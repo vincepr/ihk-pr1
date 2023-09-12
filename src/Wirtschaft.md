@@ -54,7 +54,7 @@
 # Projekt
 ## Merkmale eines Projekts
 - Neuartig, Einmalig
-- Konrete Zielvorgabe
+- Konrete Ziele
 - Zeibegrenzung
 - Ressourcenbegrenzung
 - Komplexität und Größe
@@ -67,8 +67,14 @@
 
 Beispiel **Methoden für Bedarfsanalyse**:
 - Befragung
+    - Interviews, Fragebögen
 - Beobachtung
+    - Beobachten des Ist-Zustandes, z.B. Arbeitsauftrag von Eingang bis Ende begleiten
+    - Analyse welche Merkmale wichtig sind
 - Aufgabenbeschreibung
+    - genaues Bild der zu löschenden Aufgabe bekommen
+    - Textform/ Use-Case-Diagramm zur visualisierung
+    - z.B. Diagramm von Ablauf erstellen
 
 ## Aufgaben Projektleiter
 - Teilziele Festlegen
@@ -215,6 +221,7 @@ ISO 9000 ff.  (z.B. 9001)
 **Pull Medien:**
 - Nutzer überlegt vorher was er wissen will und sucht dann gezielt
 - z.B. Internet mit Google
+
 
 ### Mitarbeiter Motivation
 - Möglichkeit Homeoffice

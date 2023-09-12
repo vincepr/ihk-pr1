@@ -6,6 +6,24 @@
 |alle Daten die in einem Unternehmen anfallen | nur Personenbezogene Daten|
 |CIA zum minimieren von Risiken durch z.B. Verlust| Daten mit denen ein Mensch identifiziert werden kann|
 
+**IT Grundschutz (BSI)** 
+- typische Gefahren zusammengefasst
+- mit Lösungsvorschlägen
+- Ziel systematische Risikominimierung
+
+**ISO 27001**
+- Informationssicherheitsmanagement
+- Prozessorientiert mit knappenBeschreibungen der Regelungen
+
+**Security by Design:**
+- Sicherheit als Anforderung im Entwicklungsprozess
+- einbezogen in Planung/Entwicklung/Tests
+- stetige Analyse of Sicherheitsrisiken und wie zu beheben
+
+**Security by Default:**
+- Software standardmäßig so voreingestellt, dass am sichersten
+- Standartisierte Sicherheitsbausteine (z.B. mindestens Firewall, privates Netz...)
+
 ## CIA
 **Vertraulichkeit** - kann nur die berechtigte Person die Daten einsehen?
 - einrichten von Zugriffsberechtigungen und Nutzer mit entsprechenden Berechtigungen
@@ -75,4 +93,17 @@ Erzeugen eines Key-Pairs. Der Schlüsselträger behät private-key geheim und ka
 - bestes von beiden Arten:
     - erst Assymetrisch für Sicherheit
     - auf dieser Verbindung wird dann der Symmetrische Key geteilt, für eine Schnellere Verbindung
-    
+
+
+### Bausteine IT Grundschutz nach BSI
+|Application|It-Systeme|
+|---|---|
+|Office Produkte|allgemeiner Server|
+|Webbrowser|Windows Server|
+|Mobile Apps|Linus/Unix Server|
+|Webserver|Virtualisierung|
+|Fileserver|Windows Clients|
+|DNS Server|Linux Clients|
+|Datenbanksysteme|MacOS Clients|
+|Kubernetes|IOS / Android|
+|Email Client/Server|Wechseldatenträger|
