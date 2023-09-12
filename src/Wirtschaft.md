@@ -9,7 +9,30 @@
 - wenn nicht näher benannt Monopol = Angebotsmonopol, Polypol = Angebotspolypol, Oligopl Angebotsoligopol.
     - Nachfragemonopol wäre z.B. viele Anbieter und nur 1 Nachfrager. (z.B. Software für deutschen Staat)
 
-## Organisationsformen
+## Organisation
+
+### Führungsstiele
+
+Autoritärer Führungsstil
+- Leiter alleine bestimmt
+- schnelles Handeln. Vorallem in Notfallsituationen geeignet
+
+Demokratischer Führungsstil
+- Entscheidungen werden abgestimmt
+- Mitarbeiter hoch motiviert, da in Handlungen mit einbezogen
+- hohe Mitverantwortung
+
+Coachender Führungsstil
+- Auf Mitarbeiter und deren individuelle Potentiale fokussiert
+- Verstärkt die Mitarbeiterbindung
+- Gefahr der Bevormundung
+
+Kooperativer Führungsstil
+- Mitarbeiter können sich einbringen. Kreativität ist erwünscht
+- Flache Hierarchien
+- großer Spielraum bei Ausführung der Arbeit
+
+### Organisationsformen
 
 #### **Einlinenogranisation**
 
