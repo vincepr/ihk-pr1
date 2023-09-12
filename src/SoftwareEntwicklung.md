@@ -15,6 +15,16 @@
 - Umfasst Kernprozesse, die zur Führung eines Unternehmens erforderlich sind
 - Umfasst Prozesse und Hilfsmittel für z.B. Finanzen, Personal, Beschaffung, Logistik
 
+### ERP - System
+|||
+|---|---|
+|HRM|Human Ressource Management|
+|CRM|Customer Relationship Management|
+|SCM|Supply Chain Management|
+|DMS|Dokument Management System|
+|CMS|Content Management System|
+
+
 ### Ebenen im Unternehmen
 |Ebene|System|
 |---|---|
@@ -89,6 +99,38 @@ Haupt:
 - letzte Möglichkeit Mängel zu benennen und schriftlich festzuhalten
 
 Mit der Abnahme beginnt die Gewährungsfrist
+
+## Projektplanung
+
+![Alt text](./img/Wasserfallmodell.svg)
+![Alt text](./img/V_Spiral_Modell.svg)
+
+### Wasserfallmodell
+|Vorteil|Nachteil|
+|---|---|
+|Einfache Struktur|wenig flexibel|
+|Sichtbarer Fortschritt|spätes erkennen von Umsetzungsfehlern|
+|Planungssicherheit|Bei Fehler zum Entwurf zurück|
+|einfache Kalkulation von Zeit/Budget|teure Fehlerkorrektur|
+
+### Erweitertes Wasserfall Modell
+- Rücksprungsmöglichkeit in vorherige Phase
+- Klassische Vorteile des Wasserfallmodells
+- Mehr flexibilität
+
+### V-Modell
+|Vorteil|Nachteil|
+|---|---|
+|Ergänzung von Testphasen zu jeder Entwicklungsphase|recht starre Struktur|
+|Minimierung von Risiken|evtl. schwer für Agile-entwicklung|
+|verbesserte Produktqualität|nicht für lange oder iterative Projekte|
+
+### Spiral-Modell
+|Vorteil|Nachteil|
+|---|---|
+|iterativer Prozess mit beliebigen Zyklen|schlecht zu parallelisieren|
+|hohe Flexibilität|hoher Aufwand, ständiges Planen/Analisieren|
+|ständiges Abwägen von Risiken/Alternativen|risikoabhängiges Handeln passt nicht zu jedem Produkt|
 
 ## Compiler, Interpreter etc.
 ### Linker
