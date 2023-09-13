@@ -5,6 +5,7 @@
 ----
 * [Aufgaben Beispiele](AufgabenBeispiele.md)
 * [Cloud](Cloud.md)
+* [Datensicherung](Datensicherung.md)
 * [img]()
 * [IT Grundlagen](IT_Grundlagen.md)
 * [IT Sicherheit](IT_Sicherheit.md)

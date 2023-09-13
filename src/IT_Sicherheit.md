@@ -107,3 +107,23 @@ Erzeugen eines Key-Pairs. Der Schlüsselträger behät private-key geheim und ka
 |Datenbanksysteme|MacOS Clients|
 |Kubernetes|IOS / Android|
 |Email Client/Server|Wechseldatenträger|
+
+## Firewall Arten
+Von Niedrigen Schichten nach höheren Schichten
+
+### Packet Filter Firewall
+in OSI 3
+
+- Quell IP, Ziel IP
+- Quell Port, Ziel Port
+- Protokolle
+
+### Stateful Packet Inspection
+in OSI 4
+
+- TCP Handshakes, Session fulfilment rules
+
+### Application Gateway Firewall
+in OSI 7. Proxy Server ist ein beispiel für eine Application Firewall
+
+- advanced features against threats like SQL-injections, cross-site-scripting, cookie-tempering
