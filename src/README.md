@@ -2,12 +2,12 @@
 Sammlung für die Prüfungsvorbereitung für Teil 1 der Fachinformatiker Prüfung
 
 ----
-* [Aufgaben Beispiele](AufgabenBeispiele.md)
-* [Cloud](Cloud.md)
-* [Datensicherung](Datensicherung.md)
-* [IT Grundlagen](IT_Grundlagen.md)
-* [IT Sicherheit](IT_Sicherheit.md)
-* [KurzUndKnapp](KurzUndKnapp.md)
-* [Netzwerk](Netzwerk.md)
-* [Software Entwicklung](SoftwareEntwicklung.md)
-* [Wirtschaft](Wirtschaft.md)
+* [Kurz und Knapp](1KurzUndKnapp.md)
+* [IT Grundlagen](2IT_Grundlagen.md)
+* [IT Sicherheit](3IT_Sicherheit.md)
+* [Datensicherung](4Datensicherung.md)
+* [Netzwerk](5Netzwerk.md)
+* [Cloud](6Cloud.md)
+* [Software Entwicklung](7SoftwareEntwicklung.md)
+* [Wirtschaft](8Wirtschaft.md)
+* [Aufgaben Beispiele](9AufgabenBeispiele.md)

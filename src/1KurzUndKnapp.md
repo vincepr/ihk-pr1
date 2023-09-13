@@ -1,3 +1,4 @@
+# Kurz und Knapp
 |Begriff|Erklärung|
 |---|---|
 |Stakeholder|Person die aktuell oder zukünftig von einem Projekt beeinflusst wird (aka. Eniflussnehmer)|

@@ -16,6 +16,7 @@
 - Umfasst Prozesse und Hilfsmittel für z.B. Finanzen, Personal, Beschaffung, Logistik
 
 ### ERP - System
+
 |||
 |---|---|
 |HRM|Human Ressource Management|
