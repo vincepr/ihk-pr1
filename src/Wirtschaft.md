@@ -287,7 +287,7 @@ ISO 9000 ff.  (z.B. 9001)
 - Ansprechpartner
 - Kontaktdaten
 
-## Recht
+# Recht
 
 ### Handelskauf
 **Bürgerlicher Kauf:** Privatperson - Privatperson
