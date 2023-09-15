@@ -81,10 +81,10 @@ Error-Free-Cut-Through
 |Application|Http,FTP|Proxy, Load-Balancer|7|Ein/ausgabe|Daten|-|Server Config fehlerhaft|
 |Presentation|Http,FTP|Proxy, Load-Balancer|6|Anwendungsdaten in Standard Formate|Daten|-|Server Config fehlerhaft|
 |Session|Http,FTP|Proxy, Load-Balancer|5|Steuerung der Verbindung|Daten|-|Server Config fehlerhaft|
-|Transport|TCP, UDP|Gateway|Zuordnung der Datenpakete|4|Segmente|Ports|Verlust von Packeten|
-|Network|IP, ICMP|Router|Routing Pakete nächster Knoten|3|Pakete|IP|Falsche IP vergeben|
-|DataLink|Ethernet, ARP|Bridge, Switch|Pakete in Frames, Checksums|2|Frames|MAC|Netzwerkkarte defekt|
-|Physical|(Token Ring)|Kabel, Repeater|Umwandeln Bits in Physische Signale|1|Bits|-|Kabel defekt|
+|Transport|TCP, UDP|Gateway|4|Zuordnung der Datenpakete|Segmente|Ports|Verlust von Packeten|
+|Network|IP, ICMP|Router|3|Routing Pakete nächster Knoten|Pakete|IP|Falsche IP vergeben|
+|DataLink|Ethernet, ARP|Bridge, Switch|2|Pakete in Frames, Checksums|Frames|MAC|Netzwerkkarte defekt|
+|Physical|(Token Ring)|Kabel, Repeater|1|Umwandeln Bits in Physische Signale|Bits|-|Kabel defekt|
 
 
 ## IPv4
