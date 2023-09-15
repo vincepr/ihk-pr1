@@ -4,9 +4,8 @@
 ![APK](./img/EPK.svg)
 
 
-**Struktogramm**
+**Struktogramm - Sekunden in Hours Minues and Seconds**
 ![Alt text](./img/StruktogrammTime.svg)
-
 
 **Angebotsvergleich**
 ![Alt text](./img/Angebotsvergleich.svg)
