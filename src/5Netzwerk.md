@@ -76,15 +76,15 @@ Error-Free-Cut-Through
 ![global vs local](./img/localglobalinsideout.svg)
 
 ## OSI - Modell
-|Nr|Schicht|Protokolle|Geräte|Beschr.|-|Addr|Störungen|
-|---|---|---|---|---|---|---|---|
-|7|Application|Http,FTP|Proxy, Load-Balancer|Ein/ausgabe|Daten|-|Server Config fehlerhaft|
-|6|Presentation|Http,FTP|Proxy, Load-Balancer|Anwendungsdaten in Standard Formate|Daten|-|Server Config fehlerhaft|
-|5|Session|Http,FTP|Proxy, Load-Balancer|Steuerung der Verbindung|Daten|-|Server Config fehlerhaft|
-|4|Transport|TCP, UDP|Gateway|Zuordnung der Datenpakete|Segmente|Ports|Verlust von Packeten|
-|3|Network|IP, ICMP|Router|Routing Pakete nächster Knoten|Pakete|IP|Falsche IP vergeben|
-|2|DataLink|Ethernet, ARP|Bridge, Switch|Pakete in Frames, Checksums|Frames|MAC|Netzwerkkarte defekt|
-|1|Physical|(Token Ring)|Kabel, Repeater|Umwandeln Bits in Physische Signale|Bits|-|Kabel defekt|
+|Schicht|Protokolle|Geräte|Nr|Beschr.|-|Addr|Störungen|
+|---|---|---|---|---|---|---|--|
+|Application|Http,FTP|Proxy, Load-Balancer|7|Ein/ausgabe|Daten|-|Server Config fehlerhaft|
+|Presentation|Http,FTP|Proxy, Load-Balancer|6|Anwendungsdaten in Standard Formate|Daten|-|Server Config fehlerhaft|
+|Session|Http,FTP|Proxy, Load-Balancer|5|Steuerung der Verbindung|Daten|-|Server Config fehlerhaft|
+|Transport|TCP, UDP|Gateway|Zuordnung der Datenpakete|4|Segmente|Ports|Verlust von Packeten|
+|Network|IP, ICMP|Router|Routing Pakete nächster Knoten|3|Pakete|IP|Falsche IP vergeben|
+|DataLink|Ethernet, ARP|Bridge, Switch|Pakete in Frames, Checksums|2|Frames|MAC|Netzwerkkarte defekt|
+|Physical|(Token Ring)|Kabel, Repeater|Umwandeln Bits in Physische Signale|1|Bits|-|Kabel defekt|
 
 
 ## IPv4
