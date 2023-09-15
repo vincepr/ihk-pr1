@@ -53,7 +53,8 @@
 |---|---|---|---|---|---|---|---|---|---|
 |A|x||x||x||x||x|
 |B||x||||x||||
-|C||||x||||x||
+|C||||x||||||
+|D||||||||x||
 
 ## Archivbit
 - Wenn User Daten ändert, Bitflag wird 1 gesetzt.
