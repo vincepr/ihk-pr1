@@ -4,3 +4,10 @@ language = "en, de"
 multilingual = true
 src = "src"
 title = "ihk-pr1"
+
+[output.html]
+git-repository-url = "https://github.com/vincepr/ihk-pr1"
+site-url = "/ihk-pr1/"
+
+
+additional-css = ["custom.css"]

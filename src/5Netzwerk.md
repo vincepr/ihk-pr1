@@ -158,15 +158,15 @@ Dynamic Host Configuration Protocol
 
 ### DORA
 Beschreibt den Ablauf einer DHCP-Anfrage und DCHP-Antwort:
-1. Discover - Client sendet UDP-Paket Broadcast (an 255.255.255.255). Dient als Adressanforderung an alle verfügbaren DHCP-Server
-2. Offer - DHCP-Server antworten mit verfügbarer IP Konfiguration. Beinhaltet:
+1. **Discover** - Client sendet UDP-Paket Broadcast (an 255.255.255.255). Dient als Adressanforderung an alle verfügbaren DHCP-Server
+2. **Offer** - DHCP-Server antworten mit verfügbarer IP Konfiguration. Beinhaltet:
     - mögliche IP Adresse
     - MAC Adresse des Clients
     - Laufzeit/Lebenszeit
     - Subnetzmaske
     - IP Adresse des DHCP Servers
-3. Request - Client sucht sich eine IP Adresse aus und sendet (per BC so wissen alle Server das er ihre/andere genomment hat)
-4. Acknowledge - Anschließend wird die Vergabe vom DHCP Server bestätigt oder verneint. (wenn mitlerweile z.B. an anderen Client vergeben)
+3. **Request** - Client sucht sich eine IP Adresse aus und sendet (per BC so wissen alle Server das er ihre/andere genomment hat)
+4. **Acknowledge** - Anschließend wird die Vergabe vom DHCP Server bestätigt oder verneint. (wenn mitlerweile z.B. an anderen Client vergeben)
     - Sobald Client die Bestätigung erhalten speichert er diese lokal ab
     - Anschließend wird der TCP/IP Stack gestartet
 
