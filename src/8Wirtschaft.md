@@ -6,8 +6,11 @@
 |Monopol|Post, Bahn|1|viele|
 |Polypol|Börse, Restaurant|viele|viele|
 |Oligopol|Chiphersteller, Pharma|wenige|viele|
-- wenn nicht näher benannt Monopol = Angebotsmonopol, Polypol = Angebotspolypol, Oligopl Angebotsoligopol.
-    - Nachfragemonopol wäre z.B. viele Anbieter und nur 1 Nachfrager. (z.B. Software für deutschen Staat)
+- wenn nicht näher benannt:
+    - Monopol = Angebotsmonopol
+    - Polypol = Angebotspolypol
+    - Oligopl = Angebotsoligopol.
+- Nachfragemonopol wäre z.B. viele Anbieter und nur 1 Nachfrager. (z.B. Software für deutschen Staat)
 
 ## Organisation
 
