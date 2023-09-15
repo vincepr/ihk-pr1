@@ -108,8 +108,6 @@ Erzeugen eines Key-Pairs. Der Schlüsselträger behät private-key geheim und ka
 |Email Client/Server|Wechseldatenträger|
 
 ## Firewall Arten
-Von Niedrigen Schichten nach höheren Schichten
-
 ### Packet Filter Firewall
 in OSI 3
 
