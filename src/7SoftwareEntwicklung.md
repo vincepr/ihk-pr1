@@ -102,6 +102,10 @@ Haupt:
 
 Mit der Abnahme beginnt die Gewährungsfrist
 
+### Prototyp
+
+![Alt text](./img/Prototyp.svg)
+
 ## Projektplanung
 
 ![Alt text](./img/Wasserfallmodell.svg)
