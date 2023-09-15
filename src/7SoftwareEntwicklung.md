@@ -57,6 +57,7 @@ beschreibt die Anforderungen (vom **Kunden** erstellt)
 - Basis für Pflichtenheft
 
 Aufbau:
+
 ||||
 |---|---|---|
 |Business Case|Warum ist Projekt notwendig?|Relaunch Webseite notwendig, da veraltet|

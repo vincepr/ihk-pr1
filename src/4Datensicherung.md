@@ -53,7 +53,7 @@
 |---|---|---|---|---|---|---|---|---|---|
 |A|x||x||x||x||x|
 |B||x||||x||||
-|C||||||||x||
+|C||||x||||x||
 
 ## Archivbit
 - Wenn User Daten ändert, Bitflag wird 1 gesetzt.
@@ -62,12 +62,20 @@
 - Nuten bei Vollbackup: Alles wird gesichert. Danach alles 0 gesetzt
 
 ## Automatisches vs Manuelles Backup
+**Automatisches** BU:
 
-|Aut-Vorteile|Aut-Nachteile|Man-Vorteile|Man-Nachteile|
-|---|---|---|---|
-|Zuverlässig|erhöhter Kontrollaufwand|Bessere Kontrolle|Unzuverlässigkeit|
-|Konsistent|Abhängig von Technik|Flexibel|Menschl. Versagen|
-|Sicherheit|Ressourcenverbrauch|Unabhängig|Ungenau|
+|Vorteile|Nachteile|
+|---|---|
+|Zuverlässig|erhöhter Kontrollaufwand|
+|Konsistent|Abhängig von Technik|
+|Sicherheit|Ressourcenverbrauch|
+
+**Manuelles** BU
+|Vorteile|Nachteile|
+|---|---|
+|Bessere Kontrolle|Unzuverlässigkeit|
+|Flexibel|Menschl. Versagen|
+|Unabhängig|Ungenau|
 
 ## RTO vs RPO
 

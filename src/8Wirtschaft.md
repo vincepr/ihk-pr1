@@ -1,11 +1,11 @@
 # Wirtschaft
 
 ## Der Markt
-|Name|Anbieter|Nachfrager|Beispiele|
+|Name|Beispiele|Anbieter|Nachfrager|
 |---|---|---|---|
-|Monopol|1|viele|Post, Bahn|
-|Polypol|viele|viele|Börse, Restaurant|
-|Oligopol|wenige|viele|Chiphersteller, Pharma|
+|Monopol|Post, Bahn|1|viele|
+|Polypol|Börse, Restaurant|viele|viele|
+|Oligopol|Chiphersteller, Pharma|wenige|viele|
 - wenn nicht näher benannt Monopol = Angebotsmonopol, Polypol = Angebotspolypol, Oligopl Angebotsoligopol.
     - Nachfragemonopol wäre z.B. viele Anbieter und nur 1 Nachfrager. (z.B. Software für deutschen Staat)
 
@@ -13,21 +13,21 @@
 
 ### Führungsstiele
 
-Autoritärer Führungsstil
+**Autoritärer Führungsstil**
 - Leiter alleine bestimmt
 - schnelles Handeln. Vorallem in Notfallsituationen geeignet
 
-Demokratischer Führungsstil
+**Demokratischer Führungsstil**
 - Entscheidungen werden abgestimmt
 - Mitarbeiter hoch motiviert, da in Handlungen mit einbezogen
 - hohe Mitverantwortung
 
-Coachender Führungsstil
+**Coachender Führungsstil**
 - Auf Mitarbeiter und deren individuelle Potentiale fokussiert
 - Verstärkt die Mitarbeiterbindung
 - Gefahr der Bevormundung
 
-Kooperativer Führungsstil
+**Kooperativer Führungsstil**
 - Mitarbeiter können sich einbringen. Kreativität ist erwünscht
 - Flache Hierarchien
 - großer Spielraum bei Ausführung der Arbeit
@@ -35,44 +35,49 @@ Kooperativer Führungsstil
 ### Organisationsformen
 
 #### **Einlinenogranisation**
+Jede Instanz hat genau eine Übergeordnete Stelle
 
-|Beschreibung|Vorteile|Nachteile|
-|---|---|---|
-|Jede Instanz hat genau eine Übergeordnete Stelle|Schnelle Kommunikation|Überlastung d. Entscheidungsträger (da alles bestätigt werden muss)|
-||schnelle Kommunikation|Je größer desto langsamer|
-||schnelle Entscheidungsfindung|wenig Kreativität|
-||klare Kompetenzen|Stille-Post-Problem|
+|Vorteile|Nachteile|
+|---|---|
+|Schnelle Kommunikation|Überlastung d. Entscheidungsträger (da alles bestätigt werden muss)|
+|schnelle Kommunikation|Je größer desto langsamer|
+|schnelle Entscheidungsfindung|wenig Kreativität|
+|klare Kompetenzen|Stille-Post-Problem|
 
 #### **Mehrlinienorganisation**
+Eine Instant kann mehrere übergeordnete Stellen besitzen
 
-|Beschreibung|Vorteile|Nachteile|
-|---|---|---|
-|Eine Instant kann mehrere übergeordnete Stellen besitzen|direkte Kommunikation|Mehrfachzuweisungen|
-||kurze Kommunikationswege|Kompetenzüberschreitungen|
-||mehr Kontrolle über Mitarbeiter|Schwierige Fehlerzuweisung|
+|Vorteile|Nachteile|
+|---|---|
+|direkte Kommunikation|Mehrfachzuweisungen|
+|kurze Kommunikationswege|Kompetenzüberschreitungen|
+|mehr Kontrolle über Mitarbeiter|Schwierige Fehlerzuweisung|
 
 #### **Stablinenorganisation**
+ergänzt z.B. Einlinien durch Stabsstelle
 
-|Beschreibung|Vorteile|Nachteile|
-|---|---|---|
-|ergänzt z.B. Einlinien durch Stabsstellen|Entlastung der Entscheidungsträger|verlangsamt Entscheidungsprozesse|
-||diese entlasten Führung|Spezialisten mit Expertenwissen|oft geringe Kommunikation zu Stabstellen|
-||besitzen jedoch keine Weisungsbefugniss|Abteilungs-Denkweise kurzfristig ausgeglichen durch langfristige-Denkweise Stabstellen|teuer|
+|Vorteile|Nachteile|
+|---|---|
+|Entlastung der Entscheidungsträger|verlangsamt Entscheidungsprozesse|
+|diese entlasten Führung|Spezialisten mit Expertenwissen|oft geringe Kommunikation zu Stabstellen|
+|besitzen jedoch keine Weisungsbefugniss|Abteilungs-Denkweise kurzfristig ausgeglichen durch langfristige-Denkweise Stabstellen|teuer|
 
 #### **Matrixorganisation**
+Mitarbeiter genau 2 Führungskräfte. Aufgeteilt in horizontale und vertikale Gliederung
 
-|Beschreibung|Vorteile|Nachteile|
-|---|---|---|
-|Mitarbeiter genau 2 Führungskräfte|kurze Kommunikationswege|Kompetenz Konflikte|
-|aufgeteilt in horizontale|klare Ansprechpartner|Zuweisungsprobleme: Erfolg/Misserfolg|
-|und vertikale Gliederung|flache Hierarchie|hoher Kommunikationsaufwand|
+|Vorteile|Nachteile|
+|---|---|
+|kurze Kommunikationswege|Kompetenz Konflikte|
+|klare Ansprechpartner|Zuweisungsprobleme: Erfolg/Misserfolg|
+|flache Hierarchie|hoher Kommunikationsaufwand|
 
 #### **Projektorganisation**
+Das Projekt selbst wird eine Orga-Einheit im Unternehmen
 
-|Beschreibung|Vorteile|Nachteile|
-|---|---|---|
-|Das Projekt selbst wird|Fokussierung auf Projektziele|Umgestaltungsaufwand|
-|in Orga-Einheit im Unternehmen|hohe Identifikation mit Projekt|Probleme bei widereingliederung nach Ende|
+|Vorteile|Nachteile|
+|---|---|
+|Fokussierung auf Projektziele|Umgestaltungsaufwand|
+|hohe Identifikation mit Projekt|Probleme bei widereingliederung nach Ende|
 
 # Projekt
 ## Merkmale eines Projekts
@@ -89,12 +94,12 @@ Kooperativer Führungsstil
 3. **Bedarf des Nutzers** - Was braucht der Nutzer (ohne das er es z.B. in Worte fassen kann, oder was er implizit erwartet)
 
 Beispiel **Methoden für Bedarfsanalyse**:
-- Befragung
+- **Befragung**
     - Interviews, Fragebögen
-- Beobachtung
+- **Beobachtung**
     - Beobachten des Ist-Zustandes, z.B. Arbeitsauftrag von Eingang bis Ende begleiten
     - Analyse welche Merkmale wichtig sind
-- Aufgabenbeschreibung
+- **Aufgabenbeschreibung**
     - genaues Bild der zu löschenden Aufgabe bekommen
     - Textform/ Use-Case-Diagramm zur visualisierung
     - z.B. Diagramm von Ablauf erstellen

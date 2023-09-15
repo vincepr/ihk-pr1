@@ -34,7 +34,7 @@
 - werden häufig in Firmennetzwerken verwendet um ein LAN zu bilden
 - Sorgen innerhalb einer Broadcast Domain, dass Datenpakete(Frames) an ihr Ziel kommen
 
-**APIPA Adresse: **
+**APIPA Adresse:**
 - Autokonfiguration wenn nichts eingestellt. (vergibt sich selbst **link-local** Ip-Adresse)
 
 **Link-Local Adresse:**
@@ -69,9 +69,9 @@ Error-Free-Cut-Through
 
 ### Inside vs Outside and local vs global
 
-**Inside vs Outside: ** Inside Clients Network vs not
+**inside vs outside:** - Inside the Clients Network vs not in that Network.
 
-**local vs global: ** private vs only reachable via the Internet
+**local vs global:** - Private vs only reachable via the Internet
 
 ![global vs local](./img/localglobalinsideout.svg)
 
@@ -129,13 +129,13 @@ localhost IPv6  ::1
 |WPA-Enterprise mit RADIUS|sicherer|hohe kosten, aufwändiges Einrichten|große Unternehmen|
 
 ### DSL
-DSL - Digital Subscriber Line
+**DSL** - Digital Subscriber Line
 
-ADSL - asymmetric - mehr download als Upload (z.B. 10x)
+**ADSL** - asymmetric - mehr download als Upload (z.B. 10x)
 
-SDLS - symmetric - genau gleiches Up und Down
+**SDLS** - symmetric - genau gleiches Up und Down
 
-VDSL - Very High Speed - benutzt (Super-)Vectoring. erhöht auf Kupferleitung die Max. Datenrate
+**VDSL** - Very High Speed - benutzt (Super-)Vectoring. erhöht auf Kupferleitung die Max. Datenrate
 
 ||Down|Up|
 |---|---|---|
@@ -157,7 +157,7 @@ Dynamic Host Configuration Protocol
 ![Dhcp](./img/dhcp.svg)
 
 ### DORA
-Beschreibt den Ablauf einer DHCP-Anfrage und -Antwort:
+Beschreibt den Ablauf einer DHCP-Anfrage und DCHP-Antwort:
 1. Discover - Client sendet UDP-Paket Broadcast (an 255.255.255.255). Dient als Adressanforderung an alle verfügbaren DHCP-Server
 2. Offer - DHCP-Server antworten mit verfügbarer IP Konfiguration. Beinhaltet:
     - mögliche IP Adresse
@@ -254,9 +254,11 @@ VLAN-Trunking:
 - Möglichkeit Browser anweisen Daten lokal zu speichern
 - Da HTTP-zustandslos, Server kann keinen Zusammenhang wischen verschiedenen Requests herstellen. Cookies lösen dieses Problem
 
-**SMTP:** - Simple Mail Transfer Protocol
+**SMTP:** 
+- Simple Mail Transfer Protocol
 
-**Websockets:** - Bidirektionale Verbindung, die offengehalten wird.
+**Websockets:** 
+- Bidirektionale Verbindung, die offengehalten wird.
 
 **POP:**
 - Email für offline verwendung abrufen

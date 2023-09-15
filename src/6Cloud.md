@@ -14,7 +14,7 @@
 
 **Community Cloud** - von mehreren Unternehmen zusammen genutzt
 
-**Multi Cloud ** - Mehrere Cloud Services in Heterogener Infrastruktur zusammengefasst
+**Multi Cloud** - Mehrere Cloud Services in Heterogener Infrastruktur zusammengefasst
 
 ## As a Service
 **SaaS** - Software as a Service:
@@ -28,15 +28,14 @@
 - z.B. Betriebssysteme, Netzwerklösungen(Cisco), VooIP-Systeme, Backup-Systeme
 
 ### VDI und DaaS
-*DaaS* - Dektop as a Service
+**DaaS** - Dektop as a Service
 
-*VDI* - Virtual Dektop Interface
+**VDI** - Virtual Dektop Interface
 - beschreibt Dektops virtuell auf einem Server betreiben
 - in Kombination mit Thin Clients
 
-Thin Client : kleiner Computer, hat noch lokalen Speicher und Browser, nur teils mit vollem Betriebssystem.
-- günstig, kompakt, nutzt auslagern der Leistung in Cloud/VDI aus
+**Thin Client:** - kleiner Computer, hat noch lokalen Speicher und Browser, nur teils mit vollem Betriebssystem. Günstig, kompakt, nutzt auslagern der Leistung in Cloud/VDI aus
 
-Zero Client : local keinen Speicher, keinen Browser
+**Zero Client:** - local keinen Speicher, keinen Browser
 
-All-In-One : Thin Client mit Bildschirm
+**All-In-One:** - Thin Client mit Bildschirm
