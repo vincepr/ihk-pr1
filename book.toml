@@ -7,6 +7,7 @@ title = "ihk-pr1"
 
 [output.html]
 git-repository-url = "https://github.com/vincepr/ihk-pr1"
+edit-url-template = "https://github.com/vincepr/ihk-pr1/edit/master/guide/{path}"
 site-url = "/ihk-pr1/"
 
 
