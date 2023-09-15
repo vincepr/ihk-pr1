@@ -102,7 +102,19 @@ Haupt:
 
 Mit der Abnahme beginnt die Gewährungsfrist
 
-### Prototyp
+## QM
+### Qualitätsmerkmale
+
+|Merkmal| Beschreibung|
+|---|---|
+| Funktionalität | Entspricht die Software den betriebswirtschaftlichen Anforderungen?|
+| Zuverlässigkeit | Kann die Software fehlerfrei und stabil genutzt werden? |
+| Benutzerfreundlichkeit | leicht zu bedienen / erlernen|
+| Effizienz| Antwortzeiten, Latenz, Ressourcenverbrauch |
+| Übertragbarkeit | Möglichkeit in andere Hardware/Netzwerke/OS zu übertragen? |
+| Änderbarkeit | Kann Software an neue betriebliche Anforderungen angepasst werden |
+
+### Prototyping
 
 ![Alt text](./img/Prototyp.svg)
 
