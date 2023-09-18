@@ -111,7 +111,7 @@ localhost IPv6  ::1
 
 **Statisches NAT:** - jede IP bekommt eine öffentliche IP (Table).
 
-**Dynamiscches NAT:** - Pool mit rotierenden IPs. Jedoch immer noch nur soviele gleichzeitige Nutzer wie öffentliche IPs.
+**Dynamisches NAT:** - Pool mit rotierenden IPs. Jedoch immer noch nur soviele gleichzeitige Nutzer wie öffentliche IPs.
 
 
 **PAT  - Port Adress Translation**
