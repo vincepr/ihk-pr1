@@ -99,8 +99,8 @@ localhost IPv6  ::1
 |Klasse|Netzwerk||
 |---|---|---|
 |A|10.0.0.0/8|privat|
-|B|172.16.0.0/16|privat|
-|C|192.168.0.0/24|privat|
+|B|172.16.0.0/12|privat|
+|C|192.168.0.0/16|privat|
 |D|240.0.0.0|multicast|
 
 ## Technologie
