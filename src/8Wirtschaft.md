@@ -4,12 +4,13 @@
 |Name|Beispiele|Anbieter|Nachfrager|
 |---|---|---|---|
 |Monopol|Post, Bahn|1|viele|
-|Polypol|Börse, Restaurant|viele|viele|
 |Oligopol|Chiphersteller, Pharma|wenige|viele|
+|Polypol|Börse, Restaurant|viele|viele|
+
 - wenn nicht näher benannt:
     - Monopol = Angebotsmonopol
-    - Polypol = Angebotspolypol
     - Oligopl = Angebotsoligopol.
+    - Polypol = Angebotspolypol
 - Nachfragemonopol wäre z.B. viele Anbieter und nur 1 Nachfrager. (z.B. Software für deutschen Staat)
 
 ## Organisation
@@ -322,7 +323,7 @@ ISO 9000 ff.  (z.B. 9001)
 - Auftrag**nehmer** trägt Risiko
 - Abrechnung für fertiges Produkt
 
-**Werkvertrag**
+**Dienstvertrag**
 - eine bestimmte Leistung wird vereinbart
 - häufig wiederholte Tätigkeit
 - Auftrag**geber** trägt Risiko
