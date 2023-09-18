@@ -36,7 +36,7 @@
 
 *Authentizität* - Veränderungen müssen klar einem Author zugeordnet werden können.
 
-## DSGVO - Verarbeitung PErsonenbezogener Daten
+## DSGVO - Verarbeitung Personenbezogener Daten
 Diese muss das Unternehmen einhalten
 
 **Datenminimierung** - Nur dem Zweck angemessen Personenbezogene Daten sammeln/verarbeiten

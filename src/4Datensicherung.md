@@ -4,14 +4,17 @@
 **RAID 0:**
 - Keine Datenredundanz. Also bei Ausfall Verlust
 - Vorteile: hohe Transferrate / paralleles Schreiben
+
 **RAID 1:**
 - volle Redundanz (Spiegeln)
 - Nachteil: Speicher Halbiert
 - Vorteil: Hohe Lesegeschwindigkeit
+
 **RAID 5:**
 - Paritätsinformationen auf 1 Platte aufgeteilt. Ausfallsicherheit 1 Platte
 - hohe Lesegeschwindigkeit, Schreiben leicht verringert
 - Mind 3 Platten benötigt
+
 **RAID 6:**
 - 2 Paritätsplatten. Ausfallsicherheit 2 Platten
 
@@ -71,11 +74,12 @@
 |Konsistent|Abhängig von Technik|
 |Sicherheit|Ressourcenverbrauch|
 
-**Manuelles** BU
+**Manuelles** BU:
+
 |Vorteile|Nachteile|
 |---|---|
 |Bessere Kontrolle|Unzuverlässigkeit|
-|Flexibel|Menschl. Versagen|
+|Flexibel|Menschliches Versagen|
 |Unabhängig|Ungenau|
 
 ## RTO vs RPO
